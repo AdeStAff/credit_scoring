@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Default (y) &le; 0.5<br/>squared_error = 0.045<br/>samples = 5944<br/>value = 0.199>, fillcolor="#fbeade"] ;
+1 [label=<Job tenure &le; -0.584<br/>squared_error = 0.023<br/>samples = 4740<br/>value = 0.14>, fillcolor="#fdf6f1"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Homeowner &le; 0.5<br/>squared_error = 0.036<br/>samples = 1654<br/>value = 0.209>, fillcolor="#fae8da"] ;
+1 -> 2 ;
+3 [label=<squared_error = 0.038<br/>samples = 1166<br/>value = 0.25>, fillcolor="#f8dfcc"] ;
+2 -> 3 ;
+4 [label=<squared_error = 0.018<br/>samples = 488<br/>value = 0.11>, fillcolor="#fffdfb"] ;
+2 -> 4 ;
+5 [label=<Credit event &le; 0.5<br/>squared_error = 0.013<br/>samples = 3086<br/>value = 0.102>, fillcolor="#fffefe"] ;
+1 -> 5 ;
+6 [label=<squared_error = 0.011<br/>samples = 3049<br/>value = 0.099>, fillcolor="#ffffff"] ;
+5 -> 6 ;
+7 [label=<squared_error = 0.034<br/>samples = 37<br/>value = 0.369>, fillcolor="#f3c5a4"] ;
+5 -> 7 ;
+8 [label=<Job tenure &le; -0.584<br/>squared_error = 0.061<br/>samples = 1204<br/>value = 0.432>, fillcolor="#f0b88f"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<Funding amount &le; 1.214<br/>squared_error = 0.056<br/>samples = 721<br/>value = 0.517>, fillcolor="#eda673"] ;
+8 -> 9 ;
+10 [label=<squared_error = 0.047<br/>samples = 542<br/>value = 0.46>, fillcolor="#efb286"] ;
+9 -> 10 ;
+11 [label=<squared_error = 0.043<br/>samples = 179<br/>value = 0.689>, fillcolor="#e58139"] ;
+9 -> 11 ;
+12 [label=<Credit event &le; 0.5<br/>squared_error = 0.041<br/>samples = 483<br/>value = 0.304>, fillcolor="#f6d3ba"] ;
+8 -> 12 ;
+13 [label=<squared_error = 0.038<br/>samples = 452<br/>value = 0.288>, fillcolor="#f7d7c0"] ;
+12 -> 13 ;
+14 [label=<squared_error = 0.024<br/>samples = 31<br/>value = 0.532>, fillcolor="#eca36e"] ;
+12 -> 14 ;
+}
