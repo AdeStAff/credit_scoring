@@ -1,1 +1,8 @@
 pandas
+openpyxl
+scikit-learn
+matplotlib
+graphviz
+seaborn
+xgboost
+
