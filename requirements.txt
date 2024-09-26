@@ -3,3 +3,5 @@ openpyxl
 scikit-learn
 matplotlib
 seaborn
+statsmodels
+optuna
